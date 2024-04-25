@@ -10,47 +10,47 @@ import instagramIcon from '../../assets/instagram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://SaurabhSanap.in" className="logo">
-        <span>www.Saurabh</span>
-        <span>Sanap.in</span>
+      <a href="https://mydigitalgarage.online" className="logo">
+        <span>www.mydigitalgarage</span>
+        <span>.online</span>
       </a>
       <div>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
+          <span>❤️</span>
         </p>
       </div>
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/codeSaurabh"
+          href="https://www.linkedin.com/in/saurabh-sanap-159871179/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://github.com/CodeSaurabh/"
+          href="https://github.com/Sonooo/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Saurabh"
+          href="https://api.whatsapp.com/send/?phone=%2B919579411158&text=Hello+Saurabh"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://t.me/CodeSaurabh"
+          href="https://t.me/mostlyinsaneinsaan"
           target="_blank"
           rel="noreferrer"
         >
           <img src={telegram} alt="telegram" />
         </a>
         <a
-          href="https://www.instagram.com/SaurabhSanap.in"
+          href="https://www.instagram.com/mostlyinsaneinsaan"
           target="_blank"
           rel="noreferrer"
         >
