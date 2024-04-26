@@ -24,7 +24,7 @@ export function About() {
         </ScrollAnimation>
         
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-        <p> <b>Hello, I'm Saurabh!</b> I'm a software developer with a knack for building web solutions that matter, using a diverse toolkit that spans the MERN stack (MongoDB, Express.js, React.js, Node.js) and extends into emerging tech like Bun, generative AI, and low-code/no-code platforms. </p>
+        <p> <b>Hello, I'm Saurabh!</b>Software developer with a knack for building web solutions that matter, using a diverse toolkit that spans the MERN stack (MongoDB, Express.js, React.js, Node.js) and extends into emerging tech like Bun, generative AI, and low-code/no-code platforms. </p>
 
 <h3>Areas of Expertise</h3>
 <p>
