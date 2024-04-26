@@ -32,7 +32,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-         <b>What I Do Best: </b> <br />
+         <b>What I Do Best: </b>
 <b>MERN Mastery:</b> 
 I bring applications from idea to launch, ensuring they're both powerful and user-friendly.also I have knowledge of High level and low level system designing.
             </p>
