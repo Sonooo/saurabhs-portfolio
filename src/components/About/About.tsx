@@ -30,11 +30,11 @@ export function About() {
 <p>
 <ul>
     <li><strong>Full Stack Development:</strong> Transforms ideas into fully operational and user-friendly applications. Expertise spans from high-level system design to intricate system engineering.</li>
-    <li><strong>System Designing and Problem Solving:</strong> Specializes in crafting scalable architecture and solving complex problems efficiently, enhancing both system functionality and performance.</li>
-    <li><strong>New Technologies:</strong> Engages with cutting-edge technologies, integrating tools like <strong>Bun</strong>, <strong>AppWrite</strong>, and <strong>Supabase</strong>, alongside <strong>Firebase</strong> and <strong>generative AI</strong>, to lead in tech innovation.</li>
+    {/* <li><strong>System Designing and Problem Solving:</strong> Specializes in crafting scalable architecture and solving complex problems efficiently, enhancing both system functionality and performance.</li> */}
+    {/* <li><strong>New Technologies:</strong> Engages with cutting-edge technologies, integrating tools like <strong>Bun</strong>, <strong>AppWrite</strong>, and <strong>Supabase</strong>, alongside <strong>Firebase</strong> and <strong>generative AI</strong>, to lead in tech innovation.</li> */}
     <li><strong>API Development:</strong> Develops reliable and fast <strong>RESTful APIs</strong> and <strong>GraphQL services</strong>, adhering to the latest security practices such as <strong>OAuth</strong> and <strong>JWT</strong>. Prioritizes optimization and thorough testing to ensure scalability and ease of maintenance.</li>
     <li><strong>Cloud Proficiency:</strong> Proficient with <strong>AWS</strong> infrastructure tools like <strong>Lambdas</strong>, <strong>RDS</strong>, and <strong>DynamoDB</strong>; builds robust and scalable applications.</li>
-    <li><strong>Innovation and Automation:</strong> Leverages the latest in AI and automation technologies to accelerate development processes and introduce next-generation solutions.</li>
+    {/* <li><strong>Innovation and Automation:</strong> Leverages the latest in AI and automation technologies to accelerate development processes and introduce next-generation solutions.</li> */}
 </ul>
 </p>
 

@@ -56,6 +56,7 @@ export const Container = styled.section`
     display: block;
     margin-top: 15%;
     .hero-text{
+      text-align:center;
 
       h1{
         font-size: 5rem;
