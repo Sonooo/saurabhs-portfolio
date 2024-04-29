@@ -8,8 +8,15 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
+<<<<<<< Updated upstream
 import Typewriter from "typewriter-effect";
+=======
+<<<<<<< HEAD
+import { Typewriter } from 'react-simple-typewriter'
+>>>>>>> Stashed changes
 
+=======
+>>>>>>> parent of 11e073e (Added Typewriting effect)
 export function Hero() {
   return (
     <Container id="home">
@@ -18,6 +25,7 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+<<<<<<< HEAD
           <h1>
           <Typewriter
                 onInit={(typewriter) => {
@@ -31,6 +39,9 @@ export function Hero() {
             />
 
           </h1>
+=======
+          <h1>Saurabh Sanap</h1>
+>>>>>>> parent of 11e073e (Added Typewriting effect)
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Full Stack Developer</h3>
