@@ -8,10 +8,9 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
-import { Typewriter } from 'react-simple-typewriter'
+import Typewriter from "typewriter-effect";
 
 export function Hero() {
-  
   return (
     <Container id="home">
       <div className="hero-text">
@@ -21,16 +20,15 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>
           <Typewriter
-            words={["Saurabh S Sanap"]}
-            loop={5}
-            cursor
-            cursorStyle=' | '
-            typeSpeed={300}
-            deleteSpeed={150}
-            delaySpeed={2000}
-            // onLoopDone={handleDone}
-            // onType={handleType}
-          />
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("Saurabh Sanap")
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Saurabh Sanap")
+                        .start();
+                }}
+            />
 
           </h1>
         </ScrollAnimation>
