@@ -82,8 +82,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font-family: "Cookie", cursive;
-    font-style: normal;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
   }
 
