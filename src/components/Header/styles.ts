@@ -24,8 +24,9 @@ export const Container = styled.header`
     a{
       color: #FFFF;
       padding: 0.6rem;
-      font-family: 'Red Hat Display', sans-serif;
-      font-weight: 500;
+      font-family: "Cookie", cursive;
+      font-weight: 400;
+      font-style: normal;
       text-transform: uppercase;
       transition: filter 0.25s;
 
