@@ -8,12 +8,16 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 import Typewriter from "typewriter-effect";
 =======
 <<<<<<< HEAD
 import { Typewriter } from 'react-simple-typewriter'
 >>>>>>> Stashed changes
+=======
+import Typewriter from "typewriter-effect";
+>>>>>>> parent of 8bc10ff (small changes and feature of typewriting effect)
 
 =======
 >>>>>>> parent of 11e073e (Added Typewriting effect)
