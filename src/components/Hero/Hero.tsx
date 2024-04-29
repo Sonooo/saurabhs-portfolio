@@ -9,6 +9,7 @@ import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 import Typewriter from "typewriter-effect";
 =======
@@ -21,6 +22,8 @@ import Typewriter from "typewriter-effect";
 
 =======
 >>>>>>> parent of 11e073e (Added Typewriting effect)
+=======
+>>>>>>> parent of 11e073e (Added Typewriting effect)
 export function Hero() {
   return (
     <Container id="home">
@@ -29,6 +32,7 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <h1>
           <Typewriter
@@ -43,6 +47,9 @@ export function Hero() {
             />
 
           </h1>
+=======
+          <h1>Saurabh Sanap</h1>
+>>>>>>> parent of 11e073e (Added Typewriting effect)
 =======
           <h1>Saurabh Sanap</h1>
 >>>>>>> parent of 11e073e (Added Typewriting effect)
