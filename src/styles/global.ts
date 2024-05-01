@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 
       body{
         transition: 0.5s;
-        background-color: #f5f5f5;
+        background-color: #DAE0E2;
         color: var(--black);
       }
 
@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 
       header.header-fixed{
         transition: 0.5s;
-        background-color: #f5f5f550;
+        background-color: #DAE0E2;
         a{
           transition: 0.5s;
           color: black;
@@ -82,7 +82,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font-family: "Cookie", cursive;
+font-family: "Patrick Hand", cursive;
+
     font-weight: 400;
   }
 

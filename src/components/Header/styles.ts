@@ -24,7 +24,8 @@ export const Container = styled.header`
     a{
       color: #FFFF;
       padding: 0.6rem;
-      font-family: "Cookie", cursive;
+  font-family: "Patrick Hand", cursive;
+
       font-weight: 500;
       text-transform: uppercase;
       transition: filter 0.25s;
@@ -83,7 +84,7 @@ export const Container = styled.header`
     position: absolute;
     width: 100%;
     height: 0.2rem;
-    background: #FFFF;
+    background: #DAE0E2;
     cursor: pointer;
     transition: .6s;
   }

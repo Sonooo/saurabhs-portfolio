@@ -7,6 +7,7 @@ export const Container = styled.section`
   gap: 8rem;
   background: rgba(0,0,0,0);
   .hero-text{
+    text-align: center;
     & > p{
       font-size: 1.8rem;
     }
@@ -47,10 +48,25 @@ export const Container = styled.section`
 
   .hero-image{
     img{
+      padding: 10px;  /* Adjust padding for desired border width */
+      // box-shadow: inset 0 0 0 10px #ccc;  /* Set border color */
       max-width: 500px;
     }
   }
 
+  // .Typerwriter{
+  // overflow: hidden; /* Ensures text doesn't overflow the container */
+  // // border-right: .10em solid white; /* Optional blinking cursor effect */
+  // white-space: nowrap; /* Keeps text on a single line */
+  // margin: 0 auto; /* Centers the text */
+  // letter-spacing: .1em; /* Adjust letter spacing for better aesthetics */
+  // animation: typing 3.5s steps(40, end) infinite alternate;
+  // }
+
+  // @keyframes typing {
+  //   from { width: 0 }
+  //   to { width: 100% }
+  // }
 
   @media(max-width: 960px){
     display: block;
