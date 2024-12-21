@@ -111,7 +111,7 @@ font-family: "Patrick Hand", cursive;
 
 
   .logo{
-    font-size: 3rem;
+    font-size: 2.3rem;
     color: #FFFF;
     // &::first-letter{
     //   color: var(--orange);
