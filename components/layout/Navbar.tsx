@@ -74,7 +74,7 @@ export function Navbar() {
             </Link>
           ))}
           <a
-            href="/Saurabh Sanap CV.pdf"
+            href="/Saurabh_Resume.pdf"
             download
             className="ml-2 px-4 py-2 rounded-lg text-sm font-medium bg-accent-blue/10 text-accent-blue hover:bg-accent-blue/20 transition-all duration-200 flex items-center gap-2"
           >
@@ -122,7 +122,7 @@ export function Navbar() {
             </Link>
           ))}
           <a
-            href="/Saurabh Sanap CV.pdf"
+            href="/Saurabh_Resume.pdf"
             download
             className="w-full text-center px-6 py-4 rounded-xl text-lg font-medium bg-accent-blue text-white hover:bg-accent-blue/90 transition-all duration-200 flex items-center justify-center gap-2 mt-4"
           >

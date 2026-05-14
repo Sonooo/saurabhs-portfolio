@@ -11,8 +11,8 @@ export const PERSONAL = {
   telegram: 'https://t.me/mostlyinsaneinsaan',
   instagram: 'https://www.instagram.com/mostlyinsaneinsaan',
   yearsExperience: 4,
-  currentCompany: 'a Leading Tech Firm',
-  previousCompany: 'a Global Enterprise Firm',
+  currentCompany: 'Infosys',
+  previousCompany: 'TCS',
 } as const;
 
 export const NAV_LINKS = [
@@ -130,23 +130,34 @@ export const TIMELINE = [
   {
     date: 'Feb 2025 – Present',
     title: 'Software Developer & AI Engineer',
-    company: 'Leading Tech Firm',
+    company: 'Infosys',
     description: 'Leading AI integration and full-stack development for enterprise clients. Building LangChain-powered agentic pipelines and modernizing legacy systems.',
     bullets: [
       'Led AI modernization of legacy monolith to microservices using LangChain & Next.js',
-      'Built enterprise PM platform (Enterprise Pulse) serving 500+ users',
+      'Built enterprise PM platform (GE Vernova Pulse) serving 500+ users',
       'Designed cross-platform notification engine with 99.9% uptime',
     ],
   },
   {
     date: 'Jan 2022 – Feb 2025',
     title: 'Software Developer',
-    company: 'Global Enterprise Firm',
+    company: 'TCS',
     description: 'Full-stack development for enterprise healthcare and energy applications. React, GraphQL, AWS Lambda, and microservices architecture.',
     bullets: [
       'Developed and maintained enterprise-grade React applications',
       'Built serverless APIs with AWS Lambda and GraphQL',
       'Implemented CI/CD pipelines and automated testing suites',
+    ],
+  },
+  {
+    date: '2021 – 2022',
+    title: 'Freelance Web Developer',
+    company: 'Self-Employed',
+    description: 'Worked with various clients to build responsive web applications, landing pages, and e-commerce solutions using PHP, WordPress, and Bootstrap.',
+    bullets: [
+      'Developed custom web applications and themes using PHP and WordPress',
+      'Built responsive UI layouts with Bootstrap for local businesses',
+      'Integrated payment gateways and optimized applications for SEO',
     ],
   },
   {

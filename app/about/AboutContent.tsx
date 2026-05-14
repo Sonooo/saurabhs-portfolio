@@ -56,8 +56,10 @@ export function AboutContent() {
               intelligent, scalable web products that solve real business problems.
             </p>
             <p>
-              My career journey started by building enterprise-grade applications for the healthcare and energy sectors. 
-              Today, I lead AI integration initiatives and architect full-stack solutions that serve hundreds of
+              My career journey started at <span className="text-accent-blue font-medium">TCS</span>,
+              where I cut my teeth on enterprise-grade applications for the healthcare and energy sectors.
+              Today at <span className="text-accent-blue font-medium">Infosys</span>, I lead AI
+              integration initiatives and architect full-stack solutions that serve hundreds of
               enterprise users daily.
             </p>
             <p>
