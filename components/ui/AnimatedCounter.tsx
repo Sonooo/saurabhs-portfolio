@@ -21,7 +21,7 @@ export function AnimatedCounter({ value, label }: AnimatedCounterProps) {
     const suffix = value.replace(/^[\d.]+/, "");
 
     if (!numMatch) {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setDisplayValue(value);
       return;
     }

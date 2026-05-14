@@ -53,18 +53,18 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="mt-8 flex flex-wrap gap-4"
+              className="mt-8 flex flex-col sm:flex-row gap-4"
             >
               <Link
                 href="/work"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent-blue text-white font-medium text-sm hover:bg-accent-blue/90 transition-all duration-200 shadow-lg shadow-accent-blue/20 hover:shadow-accent-blue/30 hover:-translate-y-0.5"
+                className="flex sm:inline-flex justify-center items-center gap-2 px-6 py-3 rounded-xl bg-accent-blue text-white font-medium text-sm hover:bg-accent-blue/90 transition-all duration-200 shadow-lg shadow-accent-blue/20 hover:shadow-accent-blue/30 hover:-translate-y-0.5 w-full sm:w-auto"
               >
                 View My Work
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border text-text-primary font-medium text-sm hover:border-accent-blue/50 hover:bg-accent-blue/5 transition-all duration-200 hover:-translate-y-0.5"
+                className="flex sm:inline-flex justify-center items-center gap-2 px-6 py-3 rounded-xl border border-border text-text-primary font-medium text-sm hover:border-accent-blue/50 hover:bg-accent-blue/5 transition-all duration-200 hover:-translate-y-0.5 w-full sm:w-auto"
               >
                 Let&apos;s Work Together
               </Link>
@@ -75,13 +75,13 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="mt-8 flex flex-wrap gap-3"
+              className="mt-8 flex flex-col sm:flex-row gap-3"
             >
-              <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium bg-accent-green/10 text-accent-green border border-accent-green/20">
+              <span className="flex sm:inline-flex justify-center items-center gap-2 px-3 py-2 sm:py-1.5 rounded-full text-xs font-medium bg-accent-green/10 text-accent-green border border-accent-green/20 w-full sm:w-auto">
                 <span className="w-2 h-2 rounded-full bg-accent-green pulse-dot" />
                 Open to Freelance Projects
               </span>
-              <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium bg-accent-blue/10 text-accent-blue border border-accent-blue/20">
+              <span className="flex sm:inline-flex justify-center items-center gap-2 px-3 py-2 sm:py-1.5 rounded-full text-xs font-medium bg-accent-blue/10 text-accent-blue border border-accent-blue/20 w-full sm:w-auto">
                 <Sparkles className="w-3 h-3" />
                 Available for Senior Roles
               </span>

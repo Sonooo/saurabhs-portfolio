@@ -51,7 +51,7 @@ export function WhatIDo() {
               <Link href="/services" className="block h-full group">
                 <div className="rounded-xl border border-border bg-surface p-6 sm:p-8 h-full transition-all duration-300 hover:border-border-hover hover:bg-surface-hover card-glow">
                   <div
-                    className="w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-transform duration-300 group-hover:scale-110"
+                    className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-5 transition-transform duration-300 group-hover:scale-110"
                     style={{
                       backgroundColor: `color-mix(in srgb, ${service.color} 12%, transparent)`,
                       color: service.color,

@@ -3,25 +3,47 @@
 /* ===== Design System Tokens ===== */
 @theme inline {
   /* Colors */
-  --color-background: #0A0A0F;
-  --color-surface: #111118;
-  --color-surface-hover: #16161f;
-  --color-border: #1E1E2E;
-  --color-border-hover: #2a2a3d;
+  --color-background: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-border: var(--border);
+  --color-border-hover: var(--border-hover);
   --color-accent-blue: #3B82F6;
   --color-accent-cyan: #06B6D4;
   --color-accent-green: #10B981;
   --color-accent-purple: #8B5CF6;
   --color-accent-amber: #F59E0B;
   --color-accent-red: #EF4444;
-  --color-text-primary: #F1F5F9;
-  --color-text-muted: #64748B;
-  --color-text-subtle: #475569;
+  --color-text-primary: var(--text-primary);
+  --color-text-muted: var(--text-muted);
+  --color-text-subtle: var(--text-subtle);
 
   /* Fonts */
   --font-display: var(--font-syne);
   --font-body: var(--font-dm-sans);
   --font-mono: var(--font-jetbrains-mono);
+}
+
+:root {
+  --bg: #FAFAFA;
+  --surface: #FFFFFF;
+  --surface-hover: #F1F5F9;
+  --border: #E2E8F0;
+  --border-hover: #CBD5E1;
+  --text-primary: #0F172A;
+  --text-muted: #475569;
+  --text-subtle: #64748B;
+}
+
+.dark {
+  --bg: #0A0A0F;
+  --surface: #111118;
+  --surface-hover: #16161f;
+  --border: #1E1E2E;
+  --border-hover: #2a2a3d;
+  --text-primary: #F1F5F9;
+  --text-muted: #64748B;
+  --text-subtle: #475569;
 }
 
 /* ===== Global Styles ===== */

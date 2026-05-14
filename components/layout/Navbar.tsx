@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, Download } from "lucide-react";
 import { NAV_LINKS, PERSONAL } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 export function Navbar() {
   const pathname = usePathname();
@@ -19,7 +20,7 @@ export function Navbar() {
   }, []);
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsOpen(false);
   }, [pathname]);
 
@@ -83,19 +84,23 @@ export function Navbar() {
           </a>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-surface transition-colors"
-          aria-label={isOpen ? "Close menu" : "Open menu"}
-          aria-expanded={isOpen}
-        >
-          {isOpen ? (
-            <X className="w-5 h-5 text-text-primary" />
-          ) : (
-            <Menu className="w-5 h-5 text-text-primary" />
-          )}
-        </button>
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="md:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-surface transition-colors"
+            aria-label={isOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isOpen}
+          >
+            {isOpen ? (
+              <X className="w-5 h-5 text-text-primary" />
+            ) : (
+              <Menu className="w-5 h-5 text-text-primary" />
+            )}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile Menu Overlay */}
