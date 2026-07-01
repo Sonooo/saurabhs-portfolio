@@ -82,6 +82,12 @@ export default function RootLayout({
       suppressHydrationWarning
       data-scroll-behavior="smooth"
     >
+      <head>
+        <script
+          src="https://cdn.userway.org/widget.js"
+          data-account="zTjeh6ZL5S"
+        />
+      </head>
       <body className="min-h-screen flex flex-col bg-background text-text-primary antialiased transition-colors duration-300">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <Navbar />
