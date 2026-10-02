@@ -69,6 +69,8 @@ export const metadata: Metadata = {
 };
 
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { NeonScrollLine } from "@/components/ui/NeonScrollLine";
+import Script from "next/script";
 
 export default function RootLayout({
   children,
@@ -83,13 +85,15 @@ export default function RootLayout({
       data-scroll-behavior="smooth"
     >
       <head>
-        <script
+        <Script
           src="https://cdn.userway.org/widget.js"
           data-account="zTjeh6ZL5S"
+          strategy="afterInteractive"
         />
       </head>
       <body className="min-h-screen flex flex-col bg-background text-text-primary antialiased transition-colors duration-300">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+          <NeonScrollLine />
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
