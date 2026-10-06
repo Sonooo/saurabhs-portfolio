@@ -103,7 +103,7 @@ export function NeonScrollLine() {
   const magneticBeam = `M ${leftX} ${curY} Q ${(leftX + curX) * 0.5} ${curY} ${curX} ${curY}`;
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-40 overflow-hidden hidden sm:block">
+    <div className="fixed inset-0 pointer-events-none z-40 overflow-hidden">
       <svg
         className="w-full h-full absolute inset-0"
         viewBox={`0 0 ${windowSize.width} ${windowSize.height}`}
