@@ -88,7 +88,7 @@ export function NeonScrollLine() {
 
   if (!mounted) return null;
 
-  const leftX = windowSize.width < 640 ? 12 : 28;
+  const leftX = windowSize.width < 640 ? 6 : 28;
   const curX = cursor.x < 0 ? leftX : cursor.x;
   const curY = cursor.y < 0 ? windowSize.height / 2 : cursor.y;
 
